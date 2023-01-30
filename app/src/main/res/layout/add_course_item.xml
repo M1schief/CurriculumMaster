@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--课程信息-->
+    <LinearLayout
+        android:padding="18dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--课程-->
+        <LinearLayout
+            android:layout_marginBottom="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="18dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/book"/>
+            <EditText
+                android:id="@+id/etCourseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="课程名"
+                android:background="@null"/>
+        </LinearLayout>
+        <!--授课老师-->
+
+        <!--周次-->
+
+
+    </LinearLayout>
+
+</LinearLayout>
